@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav .menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav .menu li {
+    display: inline;
+    margin: 0 10px;
+}
+
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+.centered-logo {
+    margin: 0 auto;
+    display: block;
+}
+
+footer {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
